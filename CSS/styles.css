@@ -11,6 +11,10 @@ body {
     font-family: Roboto;
 }
 
+.main-header {
+    width: 1440px;
+    display: flexbox;
+}
 .logo span {
     color: var(--IRIS,#4D5AE5);
     font-family: Raleway;
@@ -22,6 +26,8 @@ body {
     text-transform: uppercase;
     width: 44px;
     text-decoration: none;
+    padding-right: 0%;
+    margin-left: 150px;
 }
 
 .logo {
@@ -52,6 +58,8 @@ ul {
     letter-spacing: 0.32px;
     color: rgb(1, 1, 56);
     text-decoration: none;
+    display: flex;
+    list-style: none;
 
 }
 
@@ -67,10 +75,6 @@ ul {
     line-height: 24px;
     letter-spacing: 0.32px;  
     margin-top: 0%;
-}
-
-div.main-header {
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
 h1 {
